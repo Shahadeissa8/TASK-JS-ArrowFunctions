@@ -1,19 +1,25 @@
 /**
  * Rewrite the following `greet` function as an arrow function
  */
-function greet(name) {
-  return `Hello ${name}`;
-}
+// function greet(name) {
+//   return `Hello ${name}`;
+// }
 
+let greet = (name) => {
+  return `Hello ${name}`;
+};
+greet();
 /**
  * sum(a, b):
  * - revieces two numbers
  * - returns their sum
  * - write it as an arrow function
  */
-function sum(a, b) {
+let sum = (a, b) => {
+  sum = a + b;
   // Your code here
-}
+  return sum;
+};
 
 /**
  * square(n):
@@ -25,9 +31,11 @@ function sum(a, b) {
  * square(4) -> 16
  * sqaure(10) -> 100
  */
-function square(n) {
+let square = (n) => {
+  n = n ** 2;
+  return n;
   // Your code here
-}
+};
 
 /**
  * 🌶️🌶️
