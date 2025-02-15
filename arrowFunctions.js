@@ -5,9 +5,7 @@
 //   return `Hello ${name}`;
 // }
 
-let greet = (name) => {
-  return `Hello ${name}`;
-};
+const greet = (name) => `Hello ${name}`;
 greet();
 /**
  * sum(a, b):
@@ -15,11 +13,7 @@ greet();
  * - returns their sum
  * - write it as an arrow function
  */
-let sum = (a, b) => {
-  sum = a + b;
-  // Your code here
-  return sum;
-};
+const sum = (a, b) => a + b;
 
 /**
  * square(n):
@@ -31,7 +25,7 @@ let sum = (a, b) => {
  * square(4) -> 16
  * sqaure(10) -> 100
  */
-let square = (n) => {
+const square = (n) => {
   n = n ** 2;
   return n;
   // Your code here
